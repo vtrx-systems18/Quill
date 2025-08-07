@@ -1,18 +1,42 @@
 h1 {
   font-style: italic;
+  text-transform: uppercase;
+  font-weight: none;
 }
 h2 {
   font-style: oblique;
+  text-transform: lowercase;
 }
 p {
   font-style: oblique 30deg;
+  text-transform: capitalize;
 }
 /* css text */
 a {
   text-decoration: none;
-  font-weight: ;
+  font-weight: 700;
   font-style: italic;
 }
-h1 {
-  font-weight: none;
+ul {
+  list-style: none;
+  list-style: disc;
+  list-style: circle;
+  list-style: square;
+  list-style: decimal;
+  list-style: none;
+  font-style: italic;
+  font-style: oblique;
+  font-style: oblique 50deg;
+  font-style: normal;
+  font-weight: 400;
+  font-weight: normal;
+  font-weight: bold;
+  font-weight: 600;
+  text-decoration: overline;
+  text-decoration: underline;
+  text-decoration: line-through;
+  text-decoration: underline blue double;
+  text-transform: capitalize;
+  text-transform: lowercase;
+  text-transform: uppercase;
 }
