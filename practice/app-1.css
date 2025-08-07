@@ -1,0 +1,18 @@
+h1 {
+  font-style: italic;
+}
+h2 {
+  font-style: oblique;
+}
+p {
+  font-style: oblique 30deg;
+}
+/* css text */
+a {
+  text-decoration: none;
+  font-weight: ;
+  font-style: italic;
+}
+h1 {
+  font-weight: none;
+}
