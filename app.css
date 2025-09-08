@@ -1,29 +1,54 @@
 h1 {
-  font-weight: 700;
-  /* font-weight: bold;
-  font-weight: normal;
-  font-weight: 500; */
+  font-weight: 900;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: -2px;
+  font-size: 62px;
+  font-family: "poppins", sans-serif;
 }
 h2 {
   font-weight: 700;
+  text-align: center;
+  line-height: 1.2;
+  /* we often use negative pixels(-ve px) value on headings to improve readibility this is known as tightnening */
+  letter-spacing: -2px;
+  font-size: 48px;
+  font-family: "poppins", sans-serif;
 }
 h3 {
   font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -2px;
+  font-size: 40px;
+  font-family: "poppins", sans-serif;
+}
+h4 {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -2px;
+  font-size: 32px;
+  font-family: "poppins", sans-serif;
+}
+h5 {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -2px;
+  font-size: 25px;
+  font-family: "poppins", sans-serif;
 }
 p {
   font-weight: 400;
+  line-height: 1.5;
+  font-style: 20px;
+  font-family: "poppins", sans-serif;
 }
 a {
   font-weight: 400;
   text-decoration: none;
-  /* text-decoration: underline;
-  text-decoration: line-through black wavy;
-  text-decoration: none; */
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
 }
 ul {
   list-style: none;
-  /* list-style: disc;
-  list-style: square;
-  list-style: circle;
-  list-style: decimal; */
 }
