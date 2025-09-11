@@ -1,53 +1,98 @@
-h1 {
-  font-weight: 900;
-  text-align: center;
-  line-height: 1.2;
-  letter-spacing: -2px;
-  font-size: 62px;
+/* 
+--------- TYPOGRAPHY --------
+
+FONT SIZES
+12px / 16px / 20px / 24px / 32px / 40px
+
+FONT WEIGHTS
+  400(regular text) / 700(for headings)
+
+LINE HEIGHTS
+1.2 / 1.5
+
+LETTER SPACNG
+0 / -2px
+
+FONT FAMILY
+poppins
+
+--------- COLORS --------
+
+PRIMARY
+Base:  #339af0 (Sky Blue)
+Tint:  #d0ebff (Arctic)
+Shade:  #1c7ed6 (Deep Sea)
+
+SECONDARY
+Base:  #9775fa (Lavandar)
+Tint:  #e5dbff (Moonlight Iris)
+Shade:  #7048e8 (Velvet Night)
+
+TERTIARY
+Base:  #ff922b (Pumpkin)
+Tint:  #ffe8cc (Dawn)
+Shade  :#f76707 (Lava)
+
+GREY(NEUTRAL)
+Base:  #495050 (Slate)
+Tint:  #f1f3f5 (Pebble)
+Shade:  #212529 (Graphite)
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
   font-family: "poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+  color: #212529;
+  letter-spacing: -2px;
+  font-weight: 700;
+}
+p,
+a {
+  color: #495057;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+h1 {
+  text-align: center;
+
+  font-size: 62px;
 }
 h2 {
-  font-weight: 700;
   text-align: center;
-  line-height: 1.2;
+
   /* we often use negative pixels(-ve px) value on headings to improve readibility this is known as tightnening */
-  letter-spacing: -2px;
+
   font-size: 48px;
-  font-family: "poppins", sans-serif;
 }
 h3 {
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: -2px;
   font-size: 40px;
-  font-family: "poppins", sans-serif;
 }
 h4 {
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: -2px;
   font-size: 32px;
-  font-family: "poppins", sans-serif;
 }
 h5 {
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: -2px;
   font-size: 25px;
-  font-family: "poppins", sans-serif;
 }
 p {
-  font-weight: 400;
-  line-height: 1.5;
-  font-style: 20px;
-  font-family: "poppins", sans-serif;
+  font-size: 20px;
 }
 a {
-  font-weight: 400;
   text-decoration: none;
-  line-height: 1.5;
+
   font-size: 16px;
-  font-family: "poppins", sans-serif;
 }
 ul {
   list-style: none;
