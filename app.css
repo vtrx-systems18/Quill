@@ -10,8 +10,8 @@ FONT WEIGHTS
 LINE HEIGHTS
 1.2 / 1.5
 
-LETTER SPACNG
-0 / -2px
+LETTER SPACING
+0 / -2px(HEADINGS-TIGHTENING)
 
 FONT FAMILY
 poppins
@@ -39,15 +39,8 @@ Tint:  #f1f3f5 (Pebble)
 Shade:  #212529 (Graphite)
 */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-p,
-a {
-  font-family: "poppins", sans-serif;
-}
+/* Grouping shared styles and using css cascade ro add new rules to previous rules(coflicting rules) */
+
 h1,
 h2,
 h3,
@@ -57,24 +50,22 @@ h5 {
   color: #212529;
   letter-spacing: -2px;
   font-weight: 700;
+  font-family: "poppins", sans-serif;
 }
 p,
-a {
+a,
+.small-text {
   color: #495057;
   line-height: 1.5;
   font-weight: 400;
+  font-family: "poppins", sans-serif;
 }
-
 h1 {
   text-align: center;
-
   font-size: 62px;
 }
 h2 {
   text-align: center;
-
-  /* we often use negative pixels(-ve px) value on headings to improve readibility this is known as tightnening */
-
   font-size: 48px;
 }
 h3 {
@@ -91,9 +82,41 @@ p {
 }
 a {
   text-decoration: none;
-
   font-size: 16px;
 }
 ul {
   list-style: none;
 }
+.small-text {
+  font-size: 12px;
+}
+.btn {
+  font-weight: 400;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+.btn-primary {
+  color: #339af0;
+}
+.btn-secondary {
+  color: #9775fa;
+}
+a:link {
+}
+a:visited {
+}
+a:hover {
+}
+a:active {
+}
+
+a:hover {
+  color: #212529;
+}
+
+/* pseudo -classes{STATE) */
+/* a:link-targets targets an anchor tag when jthas not been visited
+a:visited targets an anchor tag when it has been visited
+a:hover targets an elements when hover or the cursor is placed on it
+a:active */

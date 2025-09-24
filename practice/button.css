@@ -1,0 +1,91 @@
+/* 
+------- TYPOGRAPHY --------
+
+FONT-SIZES
+12px / 16px / 20px / 24px / 32px / 40px
+
+FONT-WEIGHT
+400/700
+
+TEXT-ALIGN
+LEFT/CENTER
+
+LINE-HEIGHT
+1.2/2
+
+LETTER-SPACING
+-2px/2
+
+FONT-FAMILY
+POPPINS-SANS-SERIF
+
+
+------- COLORS --------
+
+PRIMARY
+Base:  #339af0 (Sky Blue)
+Tint:  #d0ebff (Arctic)
+Shade:  #1c7ed6 (Deep Sea)
+
+SECONDARY
+Base:  #9775fa (Lavandar)
+Tint:  #e5dbff (Moonlight Iris)
+Shade:  #7048e8 (Velvet Night)
+
+TERTIARY
+Base:  #ff922b (Pumpkin)
+Tint:  #ffe8cc (Dawn)
+Shade:#f76707 (Lava)
+
+GREY(NEUTRAL)
+Base:  #495050 (Slate)
+Tint:  #f1f3f5 (Pebble)
+Shade:  #212529 (Graphite)
+*/
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: oblique 10deg;
+  font-family: "poppins", sans-serif;
+}
+p {
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 2;
+  font-family: "poppins", sans-serif;
+  color: #495050;
+}
+h1,
+h2 {
+  text-align: center;
+  letter-spacing: -2px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "poppins", sans-serif;
+}
+.btn {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "poppins", sans-serif;
+  text-decoration: underline #d0ebff dashed;
+}
+.btn-primary {
+  color: #339af0;
+  text-decoration: none;
+  background-color: #d0ebff;
+}
+.btn-secondary {
+  color: #9775fa;
+  text-decoration: none;
+}
+.pumpkin-text {
+  color: #ff922b;
+}
+.lava-text {
+  color: #f76707;
+}
