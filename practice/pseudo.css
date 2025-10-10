@@ -1,0 +1,112 @@
+/* 
+----- TYPOGRAPHY -----
+
+FONT-SIZE
+
+FONT-WEIGHT
+
+LINE-HEIGHT
+
+LETTER-SPACING
+
+FONT-FAMILY
+
+
+
+
+----- COLORS -----
+PRIMARY
+Base:  #6d4aff
+Tint: 
+Shade:  
+
+SECONDARY
+Base:  
+Tint:  
+Shade:  
+
+TERTIARY
+Base:  
+Tint:  
+Shade  
+
+GREY(NEUTRAL)
+Base:  
+Tint:  
+Shade:  
+
+----- COLORS -----
+
+*/
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #372580;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+}
+
+a:link {
+}
+a:visited {
+}
+a:hover {
+  color: #6d4aff;
+}
+a:active {
+}
+.btn {
+  color: #6d4aff;
+}
+.btn-primary {
+  border-radius: 120px;
+  background-color: #6d4aff;
+  color: #ffff;
+}
+.btn-secondary {
+}
+.btn:hover {
+  background-color: #6d4aff;
+  color: #ffffff;
+  border-radius: 120px;
+}
+.btn:link {
+}
+.btn:visited {
+}
+.btn:active {
+}
+
+.btn-priamry:link {
+}
+.btn-priamary:visited {
+}
+.btn-primary:active {
+}
+.btn-primary:hover {
+  background-color: hsl(252, 55%, 32%);
+}
+
+.btn-secondary:link {
+}
+.btn-secondary:visited {
+}
+.btn-secondary:active {
+}
+.btn-secondary:hover {
+}
+
+a {
+}
+.a {
+}
+#a {
+}
+/* state pseudo class selector-targets an anchor tag that jhas not been visited */
+a:link {
+}
+/* state pseudo class selector-targets an anchor tag that has been visited so you can add a design when it has neenm visited */
+a:visited {
+}

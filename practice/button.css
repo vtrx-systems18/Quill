@@ -1,4 +1,4 @@
-/* 
+/* /* 
 ------- TYPOGRAPHY --------
 
 FONT-SIZES
@@ -88,4 +88,16 @@ h2 {
 }
 .lava-text {
   color: #f76707;
+}
+*/ .hover:hover {
+  color: green;
+}
+.hiver:link {
+  color: blue;
+}
+.hover:visited {
+  color: red;
+}
+.hover:active {
+  color: yellow;
 }
